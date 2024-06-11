@@ -1,0 +1,20 @@
+.App-title-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.App-intro {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.typed-text {
+  white-space: pre-line;
+}
