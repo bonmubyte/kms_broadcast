@@ -61,6 +61,16 @@ const CombinedSearchBar: React.FC<CombinedSearchBarProps> = ({
             <IoMdSend />
           </button>
         </div>
+        {file && (
+          <motion.div
+            className="file-info"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
+            <p>Uploaded file: {file.name}</p>
+          </motion.div>
+        )}
       </motion.div>
     </>
   );
